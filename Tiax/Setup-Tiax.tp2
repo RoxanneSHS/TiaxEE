@@ -16,16 +16,14 @@ ALWAYS
     OUTER_SET EVAL ~%name_source%~ = bg2_chapter
   END
 
-  ACTION_DEFINE_ARRAY O#noconvert BEGIN END
- 
-  ACTION_DEFINE_ARRAY O#reload BEGIN Setup-Tiax END
+  
+  ACTION_DEFINE_ARRAY O#reload BEGIN Setup END
 
     LAF HANDLE_CHARSETS
     INT_VAR
       infer_charset = 1
     STR_VAR
       tra_path = ~Tiax/tra~
-      noconvert_array = O#noconvert
       reload_array = O#reload
   END
 END
