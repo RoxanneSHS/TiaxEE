@@ -1,5 +1,5 @@
 			Tiax NPC MOD for Baldur's Gate II
-				   Version 4
+				   Version 4.1
 			  A Pocket Plane Group Project
 			   http://www.pocketplane.net
 
@@ -160,7 +160,7 @@ winLAME					http://winlame.sourceforge.net
 6. Version History
 -------------------
 Version 4.1
-- EET compatibility
+- EET compatibility, minor bugfixes
 
 Version 4
 - Multiple language support for BG2:EE, thanks to Isaya
